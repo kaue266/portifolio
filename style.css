@@ -1,0 +1,139 @@
+body{
+    background-image: url(./assets/pg.jpg);
+    background-position: top center;
+    background-size:100% auto; 
+    background-repeat:no-repeat;
+    position: auto;
+    height: 1767px;
+    background: #22212C;
+    display: inline-flex;
+    font-style: #837E9F;
+    font-family:'Merriweather Sans';
+}
+.imgp{
+    width: 128px;
+    height: 128px;
+}
+p{
+    text-decoration: white;
+}
+.profile { 
+    background-color: #2a2634;  
+    padding: 32px;  
+    padding-top: 25px;  
+    border-radius: 8px;
+    text-align: center;
+    position: absolute;
+    width: 348px;
+    height: 348px;
+    left: 33px;
+    top: 21px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 29px;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+.links{
+    background-color: #2a2634;
+    padding: 32px;  
+    padding-top: 24px;  
+    border-radius: 8px;
+    position: absolute;
+    width: 348px;
+    height: 348px;
+    margin-top: 458px;
+    left: 33px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 29px;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+.mproj{
+    background-color: #2a2634;
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 8px;
+    position: relative;
+    width: 870px;
+    height: 52px;
+    left: 470px;
+    top: 21px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    display:flex;
+}
+.text1{
+    text-align:left;
+    font-size: 20px;
+    line-height: 15px;
+
+}
+.text2{
+    text-align: right;
+    line-height: 20px;
+    width: 85%;
+}
+.foguete{
+    display: flex;
+    background:#302F3D;
+    position:absolute;
+    width:461px;
+    height:186px;
+    left: 470px;
+    top: 150px;
+    border-radius: 20px;
+}
+.pasta{
+    left: 450px;
+    top: 150px;
+    
+}
+.proj1{
+    position:absolute;
+    left: 65px;
+    top: 10px;
+    
+}
+.text1proj2{
+    position:absolute;
+    left: 65px;
+    top: 10px;
+    
+}
+.proj2{
+    display: flex;
+    background:#302F3D;
+    position:absolute;
+    width:461px;
+    height:186px;
+    left: 950px;
+    top: 150px;
+    border-radius: 20px;
+}
+
+.pasta{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 35px;
+    top: 25px;
+}
+.descri{
+    font-style: #837E9F;
+    font-family:'Merriweather Sans';
+    position:absolute;
+    left: 20px;
+    top: 40px;
+   
+}
