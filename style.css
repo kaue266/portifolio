@@ -1,23 +1,21 @@
+*{
+    color: #837E9F;
+    width: 100% auto;
+    font-family:Merriweather Sans;
+}
 body{
-    background-image: url(./assets/pg.jpg);
-    background-position: top center;
-    background-size:100% auto; 
-    background-repeat:no-repeat;
-    position: auto;
-    height: 1767px;
+    
+    width: 1366px;;
+    height: 1767px ;
     background: #22212C;
     display: inline-flex;
-    font-style: #837E9F;
-    font-family:'Merriweather Sans';
 }
 .imgp{
     width: 128px;
     height: 128px;
 }
-p{
-    text-decoration: white;
-}
-.profile { 
+.profile {
+
     background-color: #2a2634;  
     padding: 32px;  
     padding-top: 25px;  
@@ -26,12 +24,11 @@ p{
     position: absolute;
     width: 348px;
     height: 348px;
-    left: 33px;
+    left: 15px;
     top: 21px;
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
-    font-family: 'Merriweather Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 23px;
@@ -39,6 +36,7 @@ p{
     border-color: rgba(0, 0, 0, 0.2);
 }
 .links{
+
     background-color: #2a2634;
     padding: 32px;  
     padding-top: 24px;  
@@ -46,28 +44,65 @@ p{
     position: absolute;
     width: 348px;
     height: 348px;
-    margin-top: 458px;
-    left: 33px;
+    margin-top: 440px;
+    left: 15px;
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
-    font-family: 'Merriweather Sans';
+    
     font-style: normal;
     font-weight: 700;
     font-size: 23px;
     line-height: 29px;
     border-color: rgba(0, 0, 0, 0.2);
 }
+
+.linkedinlink{
+    top: 5px;
+    left: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 16px;
+
+    color: #837E9F;
+    display: flex;
+}
+.imgl{
+    top: -1px;
+}
+.githublink{
+
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 16px;
+
+    color: #837E9F;
+    display: flex;
+}
+.emaillink{
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 16px;
+
+    color: #837E9F;
+    display: flex;
+}
+
 .mproj{
     background-color: #2a2634;
     padding: 32px;
     padding-top: 24px;
     border-radius: 8px;
-    position: relative;
-    width: 870px;
-    height: 52px;
-    left: 470px;
-    top: 21px;
+    position: absolute;
+    width: 810px;
+    height: 60px;
+    left: 440px;
+    top: 20px;
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
@@ -88,16 +123,17 @@ p{
     display: flex;
     background:#302F3D;
     position:absolute;
-    width:461px;
+    width:430px;
     height:186px;
-    left: 470px;
+    left: 440px;
     top: 150px;
     border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .pasta{
     left: 450px;
     top: 150px;
-    
+   
 }
 .proj1{
     position:absolute;
@@ -115,11 +151,12 @@ p{
     display: flex;
     background:#302F3D;
     position:absolute;
-    width:461px;
+    width:433px;
     height:186px;
-    left: 950px;
+    left: 880px;
     top: 150px;
     border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .pasta{
@@ -130,10 +167,59 @@ p{
     top: 25px;
 }
 .descri{
-    font-style: #837E9F;
-    font-family:'Merriweather Sans';
     position:absolute;
     left: 20px;
     top: 40px;
-   
+}
+.star{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 35px;
+    top: 146px;
+}
+.numstar{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 60px;
+    top: 132px;
+
+}
+.educação{
+    background:#302F3D;
+    position:absolute;
+    width:348px;
+    height:490px;
+    left: 440px;
+    top: 350px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.title{
+    position: absolute;
+    left: 40px;
+    font-family: Merriweather Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.curso{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+.Tecnologias{
+    display: flex;
+    background:#302F3D;
+    position:absolute;
+    Width:348px;
+    Height:208px;
+    left: 810px;
+    top: 350px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
